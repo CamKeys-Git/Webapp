@@ -1,0 +1,88 @@
+/* These CSS rules apply to the <html>, <body>, and <div id="app"> HTML elements in index.html */
+html, body, #app {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+/* Continue building out the CSS styling for your Twiddler app below! We got you started by
+providing a space for you to apply styles to your app's outermost HTML element - the #app itself. */
+
+#app {
+  background-color: #ecebeb;
+  color:black;
+}
+
+/* icons */
+
+.fas {
+  color: black;
+  padding-right: 15px;
+  padding-left: 15px;
+  display: flexbox;
+  flex-direction: row;
+}
+.fas:hover {
+  color: red;
+}
+
+.feed {
+  text-align: center;
+}
+
+.button {
+  font-family: 'Roboto', sans-serif;
+  margin: 20px;
+}
+
+.profile-photo {
+  float: left;
+  padding-right: 15px;
+  padding-bottom: 5px;
+}
+
+/* text */
+
+.tweet {
+  border: 2px rgb(61, 61, 61) solid;
+  border-radius: 3%;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  margin: 20px;
+  padding: 30px;
+  width: fit-content;
+  background-color: rgb(253, 234, 247);
+  text-align: center;display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.message {
+  font-size: 18px;
+}
+
+.username:hover {
+  color: red;
+}
+
+.username {
+  padding-top: 10px;
+  font-size: 15px;
+  border: 2px rgb(61, 61, 61) solid;
+  border-radius: 5%;
+  padding: 5px;
+  background-color: rgb(218, 244, 255);
+}
+
+.title {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 50px;
+}
+
+.timestamp {
+  font-weight: 500;
+  font-style: italic;
+  font-size: 13px;
+  padding-right: 10px;
+}
